@@ -13,6 +13,3 @@ steps:
 - task: ArchiveFiles@2
 
 - task: PublishBuildArtifacts@1
-  inputs:
-    pathtoPublish: '$(Build.ArtifactStagingDirectory)'
-    artifactName: drop
